@@ -1,0 +1,549 @@
+body,html{
+	padding: 0px;
+	margin: 0px;
+}
+.topbox{
+	top: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	color: black;
+	z-index: 2;
+}
+.ano{
+	text-align: center;
+	background-color: white;
+	border-radius: 40px;
+	width: 110px;
+	margin-left: 40%;
+	padding: 5px 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    display: inline;
+
+}
+.ano:hover{
+	background-color: #a4d2e0;
+}
+.anotext{
+	color: white;
+}
+.covi{
+	margin-left: 30px;
+	color: white;
+	display: inline;
+}
+.navbar{
+	top: 58px;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	/*height: 40px;*/
+	width: 100%;
+	background-color: #62B7D1;
+	position: fixed;
+	color: black;
+	z-index: 3;
+	font-size: 15px;
+}
+.logo{
+	position: fixed;
+	width: 150px;
+	/*height: 250px;*/
+	top: 70px;
+	left: 70px;
+
+}
+.logo1{
+	position: fixed;
+	width: 150px;
+	/*height: 250px;*/
+	top: 70px;
+	left: 70px;
+
+}
+.logo:hover{
+	opacity: 0%;
+}
+.nav li{
+	display: inline;
+	padding: 60px 20px;	
+}
+.a:hover{
+	color:red;
+
+	
+}
+.nav{
+	position: absolute;
+	right: 20%;
+	top: 0px;
+}
+.nav li a{
+	color: black;
+	text-decoration: none;
+	position: relative;
+	top: 6px;
+}
+.bodymain{
+	width: 100%;
+}
+.img{
+
+	height: 550px;
+	width: 100%;
+	background: url(mo.jpg);
+	background-size: cover;
+}
+.imgtext{
+	color: white;
+	position: relative;
+	margin-left: 150px;
+	top: 170px;
+	text-align: left;
+	font-size: 60px;
+}
+.imgtext2{
+	font-size: 18px;
+	color: white;
+}
+.imgbutton{
+	width: 140px;
+	height: 33px;
+	background: transparent;
+	border: 1px solid white;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.imgbutton:hover{
+	background: white;
+
+}
+.imgbuttontext{
+	margin-top: 1px;
+	text-align: center;
+	font-size: 20px;
+
+}
+.imgbuttontext:hover{
+	color: black;
+}
+.row3{
+	height: 750px;
+	width: 100%;
+	background-color: white;
+
+}
+.row3con{
+	position: relative;
+	margin-left: 150px;
+	top: 100px;
+	text-align: left;
+	font-size: 20px;
+
+}
+.row3con1{
+	font-size: 35px;
+	margin-top: 3px;
+	margin-bottom: 200px;
+}
+.row3con2{
+	font-size: 16px;
+	text-align: left;
+	margin-left: 60%;
+	margin-top: -205px;
+}
+.box1{
+	height: 350px;
+	width: 24%;
+	background-color: #141414;
+	border-radius: 6px;
+	margin-right: 30px;
+}
+.box1 a{
+	text-decoration: none;
+}
+.box1text{
+	position: relative;
+	top: 30px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+.box1text1{
+	position: relative;
+	color: #141414;
+	font-size: 30px;
+	text-align: center;
+	top: 25px;
+	font-weight: bold;
+}
+.box1 p{
+	color: black;
+	font-size: 14px;
+	margin-top: 100px;
+}
+.shop{
+	top: 30px;
+	position: relative;
+    left: 31.5%;
+	width: 130px;
+	height: 130px;
+}
+.pointer1{
+	top: -30px;
+	position: relative;
+    left: 20%;
+	width: 100px;
+	height: 100px;
+	transform: rotate(-30deg);
+}
+.box2{
+	height: 350px;
+	width: 24%;
+	background-color: #141414;
+	border-radius: 6px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.box2 a{
+	text-decoration: none;
+}
+.box2text{
+	position: relative;
+	top: 30px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+.box1text2{
+	position: relative;
+	color: #141414;
+	font-size: 30px;
+	text-align: center;
+	top: 35px;
+	font-weight: bold;
+}
+.box2 p{
+	position: relative;
+	color: black;
+	font-size: 14px;
+	margin-top: 15px;
+	z-index: 1;
+}
+
+.donate{
+	top: 30px;
+	position: relative;
+    left: 31.5%;
+	width: 130px;
+	height: 130px;
+}
+.pointer2{
+	top: -30px;
+	position: relative;
+    left: 20%;
+	width: 100px;
+	height: 100px;
+	transform: rotate(-30deg);
+}
+.box3{
+	height: 350px;
+	width: 24%;
+	background-color: #141414;
+	border-radius: 6px;
+	margin-left: 30px;
+}
+.box3 a{
+	text-decoration: none;
+}
+.box1:hover{
+	background-color: lightblue;
+}
+.box2:hover{
+	background-color: lightblue;
+}
+.box3:hover{
+	background-color: lightblue;
+}
+.box3text{
+	position: relative;
+	top: 30px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+.box1text3{
+	position: relative;
+	color: #141414;
+	font-size: 30px;
+	text-align: center;
+	top: 23px;
+	font-weight: bold;
+}
+.box3 p{
+	color: black;
+	font-size: 14px;
+	margin-top: -30px;
+}
+
+.card{
+	top: 30px;
+	position: relative;
+    left: 31.5%;
+	width: 130px;
+	height: 130px;
+}
+.pointer3{
+	top: -30px;
+	position: relative;
+    left: 20%;
+	width: 100px;
+	height: 100px;
+	transform: rotate(-30deg);
+}
+.boxes{
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+.img2{
+	height: 550px;
+	width: 100%;
+	background: url(tr.jpg);
+
+	background-size: cover;
+}
+.img2content{
+	position: relative;
+	margin-right: 150px;
+	top: 100px;
+	text-align: right;
+	font-size: 40px;
+	font-weight: bold;
+}
+.img2content2{
+	position: relative;
+	margin-right: 150px;
+	top: 120px;
+	text-align: right;
+	font-size: 20px;
+}
+.img2button{
+	top: 20px;
+	position: relative;
+    width: 220px; 
+	height: 33px;
+	background: white;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	margin-left: 1140px;
+}	
+.img2buttoncon{
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	margin-top: 3px;
+}
+.img2button:hover{
+	background: #899B74;
+}
+.img2buttoncon:hover{
+	color: white;
+}
+
+.bottom{
+background: white;
+	width: 100%;
+	/*height: 120px;*/
+	height: 800px;
+}
+.buybox{
+	/*position: relative;
+	top: 50px;
+	width: 80%;
+	margin: auto;
+	height: 500px;
+	background-color: green;*/
+	display: flex;
+justify-content: center;
+margin-top: 40px;
+
+}
+.buy{
+	height: 500px;
+	width: 25%;
+	border-radius: 6px;
+	margin-right: 30px;
+	background: url(shoes11.jpg);
+	background-size: cover;
+	cursor: pointer;
+	/*box-shadow:  0px 0px 15px 0.0.1px black;*/
+}	
+.buy:hover{
+	opacity: 90%;
+}
+.buytext{
+	text-align: center;
+	margin-top: 510px;
+	font-size: 20px;
+}
+.buytexta{
+text-align: center;
+	margin-top: -5px;
+	font-size: 20px;
+}
+.buttonbuy{
+	margin-left: 123px;
+	justify-content: center;
+	width: 130px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: #141414;
+}
+.buttonbuy:hover{
+	background-color: #62B7D1;
+	transition: border-color 300ms ease, background-color 300ms ease;
+
+}
+.buttonbuytext{
+	text-align: center;
+	color: white;
+	font-size: 19px;
+
+}
+.buy2{
+	height: 500px;
+	width: 25%;
+	background-color: #141414;
+	border-radius: 6px;
+	margin-right: 1px;
+	margin-left: 1px;
+	background: url(bag1.jpg);
+	background-size: cover;
+	cursor: pointer;
+	/*box-shadow:  0px 0px 10px 0.1px black;*/
+}
+.buy2:hover{
+	opacity: 90%;
+}
+.buytext2{
+	text-align: center;
+	margin-top: 510px;
+	font-size: 20px;
+}
+.buytextb{
+text-align: center;
+	margin-top: -5px;
+	font-size: 20px;
+}
+.buttonbuy1{
+	margin-left: 123px;
+	justify-content: center;
+	width: 130px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: #141414;
+}
+.buttonbuy1:hover{
+	background-color: #62B7D1;
+	transition: border-color 300ms ease, background-color 300ms ease;
+
+}
+.buttonbuytext1{
+	text-align: center;
+	color: white;
+	font-size: 19px;
+
+}
+.buy3{
+	height: 500px;
+	width: 25%;
+	background-color: #141414;
+	border-radius: 6px;
+	margin-left: 30px;
+	background: url(jacket1.jpg);
+	background-size: cover;
+	cursor: pointer;
+	/*box-shadow:  0px 0px 10px 0.1px black;*/
+}
+.buy3:hover{
+	opacity: 90%;
+}
+.buytext3{
+	text-align: center;
+	margin-top: 510px;
+	font-size: 20px;
+}
+.buytextc{
+text-align: center;
+	margin-top: -5px;
+	font-size: 20px;
+}
+.buttonbuy3{
+	margin-left: 123px;
+	justify-content: center;
+	width: 130px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: #141414;
+}
+.buttonbuy3:hover{
+	background-color: #62B7D1;
+	transition: border-color 300ms ease, background-color 300ms ease;
+}
+.buyprice3{
+	text-align: center;
+	/*margin-top: 0px;*/
+	font-size: 20px;
+}
+.buttonbuytext3{
+	text-align: center;
+	color: white;
+	font-size: 19px;
+
+}
+.bottomtext{
+	text-align: center;
+	position: relative;
+	/*margin-left: 150px;*/
+	font-size: 25px;
+	top: 35px;
+	font-weight: bolder;
+}
+.bottomtext1{
+	text-align: left;
+	margin-left: 155px;
+	position: relative;
+	font-size: 24px;
+	top: 35px;
+}
+.bottomcon{
+background: #141414;
+	width: 100%;
+	height: 260px;
+}
+.bottomlogo1{
+	position: relative;
+	top: 30px;
+	width: 170px;
+	margin-left: 50px;
+}	
+.inst i{
+
+}
+.credit{
+	position: relative;
+	top: 180px;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+	color: white;
+}
+.credit a{
+	color: lightblue;
+	text-decoration: none;
+}
